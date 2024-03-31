@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+#nav_bar{
+	background-color:#E3F2FD !important;
+	border-top: 2px solid black;
+}
+
+@media screen and (max-width:995px){
+	#nav_bar{
+	    border-top: none;
+	}
+}
